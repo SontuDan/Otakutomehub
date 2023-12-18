@@ -26,7 +26,7 @@
 
 
 html{
-    font-size: 62.5%;
+    font-size: 70.5%;
     overflow-x:hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth scroll;
@@ -184,7 +184,7 @@ section {
 }
 
 body{
-    height: 300rem;   
+    height: 50rem;   
 }
 
 
@@ -298,361 +298,6 @@ body{
     cursor: pointer;
 }
 
-.home{
-    background:#e8e7e1;
-    background-size:  cover;
-    background-position:center;
-}
-
-.home .row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-.home .row .content{
-    flex:1 1 42rem ;
-}
-
-.home .row .books-slider{
-    flex:1 1 42rem ;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.home .row .books-slider a img{
-    height: 20rem;
-}
-.home .row .books-slider a:hover img{
-  transform:scale(.9);
-}
-.home .row .books-slider .stand{
-    width:100%;
-    margin-top: -2rem;
-    
-}
-
-
-.home .row .content h3{
-    color:var(--black) ;
-    font-size: 4.5rem;
-}
-
-.home .row .content p{
-    color:var(--light-color) ;
-    font-size: 1.5rem;
-    line-height: 2;
-    padding: 1rem 0;
-}
-
-.icons-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
-    gap:1rem;
-}
-
-.icons-container .icons{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 4rem;
-
-}
-
-.icons-container .icons i {
-    font-size: 2.5rem;
-    color: var(--orange);
-}
-.icons-container .icons h3 {
-    font-size: 1.5rem;
-    color: var(--black);
-    padding-bottom: .5rem;
-}
-.icons-container .icons p {
-    font-size: 1.2rem;
-    color: var(--light-color);}
-   
-
-
-.featured .featured-slider .box{
- 
-    margin: 2rem 0;
-    position: relative;
-    overflow: hidden;
-    border: var(--border);
-    text-align: center;
-    
-   
- 
-}
-
-.featured .featured-slider .box:hover{
-    border: var(--border-hover);
-}
-
-.featured .featured-slider .box .image{
-
-    padding: 1rem;
-    background: linear-gradient(15deg,#eee 30%,#fff 30.1%);
-
-}
-
-.featured .featured-slider .box .image img{
-    height: 25rem;
-}
-
-.featured .featured-slider .box .icons{
-    border-bottom: var(--border-hover);
-    position: absolute;
-    top: 0;left: 0;right: 0;
-    background: #fff;
-    z-index: 1;
-    transform: translateY(-100%);
-
-}
-.featured .featured-slider .box:hover .icons{
-    transform: translateY(0%);
-}
-
-.featured .featured-slider .box .icons a{
-    color: var(--black);
-    font-size: 2.2rem;
-    padding: 1.3rem 1.5rem;
-}
-.featured .featured-slider .box .icons a:hover{
-    background: var(--orange);
-    color: #fff;
-}
-
-.featured .featured-slider .box .content {
-    background: #eee;
-    padding: 1.5rem;
-}
-
-.featured .featured-slider .box .content h3 {
-    font-size: 2rem;
-    color: var(--black);
-}
-.featured .featured-slider .box .content .price {
-    font-size: 2.2rem;
-    color: var(--black);
-    padding: 1rem;
-  
-}
-    
-.featured .featured-slider .box .content .price span {
-    font-size: 1.5rem;
-    color: var(--light-color);
-    text-decoration: line-through;
-    margin-left: 0.5rem;
-}
-        
-
-.swiper-button-next,
-.swiper-button-prev {
-    border: var(--border-hover);
-    height: 4rem;
-    width: 4rem;
-    color: var(--black);
-    background: #fff;
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after{
-    font-size: 2rem;
-
-} 
-.swiper-button-next:hover,
-.swiper-button-prev:hover{
-    background: var(--black);
-
-} 
-
-
-
-.newsletter{
-    background:url(https://a-static.besthdwallpaper.com/anime-horizon-night-sky-wallpaper-2560x1600-84484_7.jpg) no-repeat ;
-    background-size: cover;
-    background-position: center ;
-    background-attachment: fixed;
-    padding: 10rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-}
-
-   
-
-.newsletter form{
-    max-width: 55rem ;
-    margin-left: auto ;
-    text-align: center;
-    padding: 10rem 0;
-
-}
-.newsletter  h3{
-    font-size: 2.2rem;
-    color:#ffffff ;
-    padding-bottom: .5rem;
-    font-weight: normal;
-    text-align: center;
-}
-
-.newsletter  .box {
-
-    width: 50%;
-    margin:.7rem 0 ;
-    padding: 1rem 1.2rem;
-    font-size:1.6rem ; 
-    color: var(--black);
-    border-radius: .5rem;
-    text-transform: none;
-  
-}
-/*  */
-
-
-
-.icons-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
-    gap:1rem;
-}
-
-.icons-container .icons{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 4rem;
-
-}
-
-.icons-container .icons i {
-    font-size: 2.5rem;
-    color: var(--orange);
-}
-.icons-container .icons h3 {
-    font-size: 1.5rem;
-    color: var(--black);
-    padding-bottom: .5rem;
-}
-.icons-container .icons p {
-    font-size: 1.2rem;
-    color: var(--light-color);}
-   
-
-
-.arivals .arivals-slider .box{
- 
-    margin: 2rem 0;
-    position: relative;
-    overflow: hidden;
-    border: var(--border);
-    text-align: center;
-    
-   
- 
-}
-
-.arivals .arivals-slider .box:hover{
-    border: var(--border-hover);
-}
-
-.arivals .arivals-slider .box .image{
-
-    padding: 1rem;
-    background: linear-gradient(15deg,#eee 30%,#fff 30.1%);
-
-}
-
-.arivals .arivals-slider .box .image img{
-    height: 25rem;
-}
-
-.arivals .arivals-slider .box .icons{
-    border-bottom: var(--border-hover);
-    position: absolute;
-    top: 0;left: 0;right: 0;
-    background: #fff;
-    z-index: 1;
-    transform: translateY(-100%);
-
-}
-.arivals .arivals-slider .box:hover .icons{
-    transform: translateY(0%);
-}
-
-.arivals .arivals-slider .box .icons a{
-    color: var(--black);
-    font-size: 2.2rem;
-    padding: 1.3rem 1.5rem;
-}
-.arivals .arivals-slider .box .icons a:hover{
-    background: var(--orange);
-    color: #fff;
-}
-
-.arivals .arivals-slider .box .content {
-    background: #eee;
-    padding: 1.5rem;
-}
-
-.arivals .arivals-slider .box .content h3 {
-    font-size: 1.5rem;
-    color: var(--black);
-}
-.arivals .arivals-slider .box .content .price {
-    font-size: 2.2rem;
-    color: var(--black);
-    padding: 1rem;
-  
-}
-    
-.arivals .arivals-slider .box .content .price span {
-    font-size: 1.5rem;
-    color: var(--light-color);
-    text-decoration: line-through;
-    margin-left: 0.5rem;
-}
-
-.reviews .reviews-slider .box{
-    margin: 2rem 0;
-    border: var(--border);
-    padding: 2rem;
-    text-align: center;
-
-    
-    }
-.reviews .reviews-slider .box:hover{
-
-border: var(--border-hover);
-
-    }
-.reviews .reviews-slider .box img{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.reviews .reviews-slider .box h3{
-    color: var(--black);
-    font-size: 2.2rem;
-    padding: 5rem 0 ;
-}
-.reviews .reviews-slider .box p{
-    color: var(--light-color);
-    font-size: 1.4rem;
-    padding: 1rem 0 ;
-    line-height: 2;
-
-}
-.reviews .reviews-slider .box .stars i{
-    font-size: 1.7rem;
-    color: var(--orange);
-}
-
 
 
 
@@ -755,6 +400,35 @@ border: var(--border-hover);
    text-align: bottom; text-align: center;
 }
 
+
+/* assasin */
+
+.book-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.book-image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.book-details {
+    max-width: 400px;
+    font-size: larger;
+}
+
+.comments-section {
+    margin-top: 40px;
+    padding: 20px;
+}
+.comment-image img{
+
+    max-width: 50px;
+    height: auto;
+}
 
 
 
@@ -873,7 +547,7 @@ border: var(--border-hover);
             text-align: center;
         }
         .home .row .content h3{
-            font-size: 3.5rem;
+            font-size: 35%;
         }
         
     }
